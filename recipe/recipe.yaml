@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: panic
-  version: "9.5.0"
+  version: "9.5.2"
   python_min: "3.11"
 
 recipe:
@@ -11,7 +11,7 @@ recipe:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/panic-${{ version }}.tar.gz
-  sha256: 6c4a5585c522b4f34c9f650ad392a91aa125613c3aa7207445e6914c36d2d6b3
+  sha256: f609b09f82e3cb7803d1e70654baca1e5c98db481cf10b727130b4a48b4469d9
 
 build:
   number: 0
